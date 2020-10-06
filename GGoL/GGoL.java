@@ -57,18 +57,7 @@ public class GGoL {
         }; 
 
 
-       
-
-        /**
-         * for( int r = 0; r < 15 ; r++ ){ for(int c = 0; r < 15; c++ ){
-         * if(gameBoardLogic[r][c] = true ){ gameScreenAscII[r][c] = ("o");
-         * } 
-         * else{ 
-         * gameScreenAscII[r][c] = (" "); 
-         * }
-         */
-
-        cmdGameScreen(gameBoardLogic);
+          cmdGameScreen(gameBoardLogic);
 
     }
 
