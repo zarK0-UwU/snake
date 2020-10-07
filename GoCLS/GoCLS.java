@@ -1,4 +1,5 @@
-public class GGoL {
+public class GoCLS {
+
     static void cmdGameScreen(boolean[][] gameBoardLogic){
 
         char gameScreenAscII[][] = {
@@ -22,7 +23,7 @@ public class GGoL {
         for( int r = 0; r < 15 ; r++ ){ 
             for(int c = 0; r < 15; c++ ){
 
-                if(gameBoardLogic[r][c] = true ){ 
+                if( gameBoardLogic[r][c] = true ){ 
                   gameScreenAscII[r][c] = ('o');
                 } 
                 else{ 
@@ -39,7 +40,10 @@ public class GGoL {
            System.out.println();
        }
     }
+
+    //main method
     public static void main (String[] args){
+        
        boolean gameBoardLogic[][] = { //sets 15*15 game table
             {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
             {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
