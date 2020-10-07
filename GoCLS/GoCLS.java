@@ -43,7 +43,7 @@ public class GoCLS {
 
     //main method
     public static void main (String[] args){
-        
+
        boolean gameBoardLogic[][] = { //sets 15*15 game table
             {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
             {false,false,false,false,false,false,false,false,false,false,false,false,false,false,false},
