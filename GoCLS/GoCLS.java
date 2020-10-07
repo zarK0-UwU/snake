@@ -21,9 +21,9 @@ public class GoCLS {
         };
 
         for( int r = 0; r < 15 ; r++ ){ 
-            for(int c = 0; r < 15; c++ ){
+            for(int c = 0; c < 15; c++ ){
 
-                if( gameBoardLogic[r][c] = true ){ 
+                if( gameBoardLogic[r][c] == true ){ 
                   gameScreenAscII[r][c] = ('o');
                 } 
                 else{ 
