@@ -20,25 +20,26 @@ public class GoCLS {
             {' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ','o'}
         };
 
-        for( int r = 0; r < 15 ; r++ ){ 
-            for(int c = 0; c < 15; c++ ){
-
-                if( gameBoardLogic[r][c] == true ){ 
-                  gameScreenAscII[r][c] = ('o');
-                } 
-                else{ 
-                gameScreenAscII[r][c] = (' '); 
-             
-                }
-            }
-        }
+        for( int r = 0; r < 15 ; r++ ){                 //traductor from bool to ascii 
+                                                        // false means space
+            for(int c = 0; c < 15; c++ ){               // true mean o
+                                                        // this is used to output shapes
+                if( gameBoardLogic[r][c] == true ){     //
+                  gameScreenAscII[r][c] = ('o');        //
+                }                                       //
+                else{                                   //
+                gameScreenAscII[r][c] = (' ');          //
+                                                        //
+                }                                       //
+            }                                           //
+        }                                               //
     
-        for (int row = 0; row < gameScreenAscII.length; row++) {
-            for (int column = 0; column < gameScreenAscII[row].length; column++) {
-                System.out.print(gameScreenAscII[row][column] + " ");
-        }
-           System.out.println();
-       }
+        for (int row = 0; row < gameScreenAscII.length; row++) {                    //this outputs the char gameScreenAscII
+            for (int column = 0; column < gameScreenAscII[row].length; column++) {  // displays spaces or 'o'
+                System.out.print(gameScreenAscII[row][column] + " ");               //
+            }                                                                       //
+           System.out.println();                                                    //
+        }                                                                           //
     }
 
     //main method
