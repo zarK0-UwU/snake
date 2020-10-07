@@ -1,7 +1,7 @@
 public class ConInt {
 
     public static void main(String[] args){
-        
+        bool = true; // es solo para que no aparezca el error de que el metodo main esta vacio (me estaba poniendo de los nervios)    
     }
     static void cmdGameScreen(boolean[][] gameBoardLogic){
 
