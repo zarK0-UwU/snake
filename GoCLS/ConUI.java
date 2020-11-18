@@ -1,7 +1,9 @@
-public class ConInt {
+public class ConUI {
 
     public static void main(String[] args){
-        boolean a = true; // es solo para que no aparezca el error de que el metodo main esta vacio (me estaba poniendo de los nervios)    
+        boolean a = true; // es solo para que no aparezca el error de que el metodo main esta vacio (me estaba poniendo de los nervios)
+        
+        
     }
     static void cmdGameScreen(boolean[][] gameBoardLogic){
 
